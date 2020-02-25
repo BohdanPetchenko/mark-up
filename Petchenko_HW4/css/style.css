@@ -1,0 +1,186 @@
+/* Text MENU HERE */
+
+div.menu_here{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(165, 163, 163);
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    top: 40px;
+    left: -320px;
+    color:white;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    transition: left 1s ;
+}
+
+
+/* List nav */
+.drop_menu {
+    position: fixed;
+    display: none;
+    padding: 5% 2%;
+    text-align: left;
+    background: rgb(165, 163, 163);
+    transform: rotate(270deg);
+    text-align: left;
+    top: 100px;
+    left: 100px;
+}
+.drop_menu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+
+/* Points */
+.drop_menu a::before{
+    display: inline-block;
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: rgb(212, 175, 10);
+    margin: 5px 5px;
+    border: 1px groove black;
+    transform: rotate(45deg);
+}
+
+/* Drop */
+div.menu_here:hover{
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: -60px;
+    color:rgb(165, 163, 163);
+        
+}
+div.menu_here:hover .drop_menu{
+    display:inline-block; 
+}
+.drop_menu a:hover{
+    color: rgb(212, 175, 10);
+    transition: color 0.5s;
+}
+
+
+
+
+
+/* Cards */
+.cards{
+    position: relative;
+    height: 100%;
+    width: 600px;
+    background: #0d5825;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* Quote */
+blockquote{
+    margin: 0 0 100px;
+}
+blockquote q{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+blockquote q::before{
+    content: "\201C";
+}
+blockquote q::after{
+    content: "\201d";
+}
+blockquote cite{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+/* Card function */
+.first_card{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    transform: rotate(-25deg);
+    
+}
+.second_card{
+    position: relative;
+    width: 150px;
+    right: 0px;
+    transform: rotate(-10deg);
+   
+}
+.third_card{
+    position: relative;
+    width: 150px;
+    top: 20px;
+    right: 100px;
+    transform: rotate(10deg);
+}
+
+
+/* Card hover */
+.first_card:hover{
+    transform:rotate(-25deg) translateY(-10%);
+    transition:transform 0.5s ease;    
+}
+.second_card:hover{
+    transform: rotate(-10deg) translateY(-10%);
+    transition:transform 0.5s ease;
+}
+.third_card:hover{
+    transform: rotate(10deg) translateY(-10%);
+    transition:transform 0.5s ease;
+}
+
+
+/* Quadrate */
+
+
+@keyframes anim{
+    0%{
+        background: rgb(253, 4, 4);
+        transform: translate(0);
+    }
+    25%{
+        background:rgb(0, 0, 255);
+        transform: translate(0,300px);
+    }
+    50%{
+        background: rgb(0, 128, 0);
+        transform: translate(300px,300px);
+    }
+    75%{
+        background: rgb(245, 245, 4);
+        transform: translate(300px,0);
+    }
+    100%{
+        background: rgb(255, 0, 0);
+        transform: translate(0);
+    }
+}
+.square{
+    width: 500px;
+    height: 500px;
+}
+.quadrate{
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: anim 3s infinite normal both;
+}
