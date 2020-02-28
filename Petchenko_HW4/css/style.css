@@ -114,7 +114,7 @@ blockquote cite{
     width: 150px;
     left: 100px;
     transform: rotate(-25deg);
-    
+    transition:transform 0.5s ease;
 }
 .second_card{
     position: relative;
@@ -135,15 +135,15 @@ blockquote cite{
 /* Card hover */
 .first_card:hover{
     transform:rotate(-25deg) translateY(-10%);
-    transition:transform 0.5s ease;    
+    /* transition:transform 0.5s ease;     */
 }
 .second_card:hover{
     transform: rotate(-10deg) translateY(-10%);
-    transition:transform 0.5s ease;
+    /* transition:transform 0.5s ease; */
 }
 .third_card:hover{
     transform: rotate(10deg) translateY(-10%);
-    transition:transform 0.5s ease;
+    /* transition:transform 0.5s ease; */
 }
 
 
