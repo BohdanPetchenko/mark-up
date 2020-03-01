@@ -230,13 +230,22 @@ h6{
         justify-content: center;
 
     }
+
+
+    .main_content{
+        flex-direction: column;
+
+    }
     .aside{
-        display: none;
+        width: 100%;
     }
     .content{
-        width: auto;
+        width: 100%;
+        order: -1;
     }
-	#menu__toggle, 
+
+    
+   	#menu__toggle, 
 	.menu__btn {
 		display: block;
 	}
