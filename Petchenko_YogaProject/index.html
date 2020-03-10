@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" >
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Champagne & Limousines Bold.ttf">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
     
     
     
-    <title>Yoga</title>
+    <title>Yoga</title> 
 </head>
 <body>
     <header class="header">
         <div class="header-container">
                            
-            <nav class="top-menu">
-
+            <nav class="top-menu ">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>    
                 <ul class="menu-main">
-                    <li class="left-item"><a class="#" href="#">About us</a></li>
+                    <li class="left-item "><a class="active" href="#">About us</a></li>
                     <li class="left-item"><a href="#">Reservation</a></li>
                     <li class="left-item"><a href="#">Gallery</a></li>
 
@@ -28,7 +33,7 @@
                     <li class="right-item"><a href="#">Blog</a></li>
                         
                 </ul>
-                <a href="#" class="navbar-logo"><img src="img/logo.jpg" alt="Yoga"></br>yoga</a>
+                <a href="#" class="navbar-logo"><img src="img/logo.png" alt="Yoga"></a>
             </nav>
         </div>
     </header>
@@ -41,7 +46,7 @@
                     <div class="form-wrap">
                                                     
                         <form action="#" class="trial-form">
-                            <legend class="name-form">Trial Class</legend>
+                            <fieldset class="name-form">Trial Class</fieldset>
                             <input type="text" placeholder="Enter your name">
                             <input type="tel" placeholder="Enter your phone">
                             <select>
@@ -76,7 +81,7 @@
                     </div>
                     <div class="program-box">
                         <div class="box">
-                            <img src="img/Layer 2.jpg" alt="Layer 2">
+                            <img src="img/Layer2.jpg" alt="Layer 2">
                             <div class="box-content">
                                 <h6>Yoga for health</h6>
                                 <p class="info-group">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -85,7 +90,7 @@
 
                         </div>
                         <div class="box">
-                            <img src="img/Layer 3.jpg" alt="">
+                            <img src="img/Layer3.jpg" alt="">
                             <div class="box-content">
                                 <h6>Yoga for lose weight</h6>
                                 <p class="info-group">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -93,7 +98,7 @@
                             </div>
                         </div>
                         <div class="box">
-                            <img src="img/Layer 4.jpg" alt="">
+                            <img src="img/Layer4.jpg" alt="">
                             <div class="box-content">
                                 <h6>Yoga for children</h6>
                                 <p class="info-group">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -101,7 +106,7 @@
                             </div>
                         </div>
                         <div class="box">
-                            <img src="img/Layer 5.jpg" alt="">
+                            <img src="img/Layer5.jpg" alt="">
                             <div class="box-content">
                                 <h6>Yoga For elderly</h6>
                                 <p class="info-group">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -114,58 +119,215 @@
 
         </div>
         <div class="section-photo">
-            <img class="img-grid" src="img/img-grid01.jpg" alt="img-grid01">
-            <img class="img-grid" src="img/img-grid02.jpg" alt="img-grid02">
-            <img class="img-grid" src="img/img-grid03.jpg" alt="img-grid03">
-            <img class="img-grid" src="img/img-grid04.jpg" alt="img-grid04">
-            <img class="img-grid" src="img/img-grid05.jpg" alt="img-grid05">
-            <img class="img-grid" src="img/img-grid06.jpg" alt="img-grid06">
-            <img class="img-grid" src="img/img-grid07.jpg" alt="img-grid07">
-            <img class="img-grid" src="img/img-grid08.jpg" alt="img-grid08">
-
-            <div class="grid num1">
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid01.jpg" alt="img-grid01">
                 <div class="circle">
-                    <a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a>
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
                 </div>
             </div>
-            <div class="grid num2">
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid02.jpg" alt="img-grid02">
                 <div class="circle">
-                    <a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a>
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
                 </div>
-            </div> 
-            <div class="grid num3">
-                <div class="circle"><a href="#">
-                    <img src="img/glyphicons-28-search.jpg" alt=""></a>
-                </div>
-            </div> 
-            <div class="grid num4">
+            </div>
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid03.jpg" alt="img-grid03">
                 <div class="circle">
-                    <a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a>
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
                 </div>
-            </div> 
-            <div class="grid num5">
+            </div>
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid04.jpg" alt="img-grid04">
                 <div class="circle">
-                    <a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a>
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
                 </div>
-            </div> 
-            <div class="grid num6">
+            </div>
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid05.jpg" alt="img-grid05">
                 <div class="circle">
-                    <a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a>
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
                 </div>
-            </div>    
-            <div class="grid num7">
-                <div class="circle"><a href="#">
-                    <img src="img/glyphicons-28-search.jpg" alt=""></a>
-                </div>
-            </div> 
-            <div class="grid num8">
+            </div>
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid06.jpg" alt="img-grid06">
                 <div class="circle">
-                    <a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a>
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
                 </div>
-            </div> 
+            </div>
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid07.jpg" alt="img-grid07">
+                <div class="circle">
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
+                </div>
+            </div>
+            <div class="grid">
+                <img class="img-grid" src="img/img-grid08.jpg" alt="img-grid08">
+                <div class="circle">
+                    <div class="circle-content"><a href="#"><img src="img/glyphicons-28-search.jpg" alt=""></a></div>
+                </div>
+            </div>
+                        
+        </div>
+
+
+
+
+        <div class="section-gallery">
+            <div class="container">
+                <div class="gallery-wrap">
+                    <div class="gallery-content">
+                        <h3>about us</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae omnis optio illum facilis voluptatum aut inventore sit provident autem maiores error expedita nemo odio ratione adipisci soluta eveniet, laudantium ullam, iusto vitae et? Quidem facilis vitae porro, cupiditate placeat fugiat ex rem beatae, consequatur dolorem dolor delectus expedita quae.</p>
+
+                    </div>
+                    <div class="yoga-gallery">
+                        <div><img src="img/img-yoga.jpg" alt="img-yoga"></div>
+                        <div><img src="img/img-yoga.jpg" alt="img-yoga"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="section-features">
+            <div class="container">
+                <div class="feature-wrap">
+
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-01.png" alt="ico-01">
+                        </div>
+                        <h5>improved overall health</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>              
+                       
+                    </div>
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-02.png" alt="ico-02">
+                        </div>
+                        <h5>increased concentration</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>               
+                       
+                    </div>
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-03.png" alt="ico-03">
+                        </div>
+                        <h5>blance your mind</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>               
+                       
+                    </div>
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-04.png" alt="ico-04">
+                        </div>
+                        <h5>sleep better</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>               
+                       
+                    </div>
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-05.png" alt="ico-05">
+                        </div>
+                        <h5>weight loss</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>               
+                       
+                    </div>
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-06.png" alt="ico-06">
+                        </div>
+                        <h5>strengthens your bones</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>               
+                       
+                    </div>
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-07.png" alt="ico-07">
+                        </div>
+                        <h5>increased flexibility</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>               
+                       
+                    </div>
+                    <div class="feature-box">
+                        <div class="box-circle">
+                            <img src="img/ico-08.png" alt="ico-08">
+                        </div>
+                        <h5>lower blood pressure</h5> 
+                        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>               
+                       
+                    </div>
+
+                </div>
+                                
+            </div>
+        </div>
+
+
+
+        <div class="section-price">
+            <div class="container">
+                <div class="price-wrap">
+
+                    <div class="price-box">
+
+                        <div class="price-item">
+                            <p class="currency">$</p>
+                            <p class="price">49</p>
+                            <p class="month">/month</p>
+                        </div>
+
+                        <div class="price-info">
+                            <p class="data">entry date: mon – fri</p>
+                            <p class="time">entry time: 8a.m – 8p.m</p>
+                            <p class="advicer">nutrition advicer: no</p>
+                        </div>
+                        <button class="btn-price">Buy now</button>
+                    </div>
+
+                    <div class="price-box">
+
+                        <div class="price-item">
+                            <p class="currency">$</p>
+                            <p class="price">69</p>
+                            <p class="month">/month</p>
+                        </div>
+
+                        <div class="price-info">
+                            <p class="data">entry date: mon – fri</p>
+                            <p class="time">entry time: 8a.m – 8p.m</p>
+                            <p class="advicer">nutrition advicer: yes</p>
+                        </div>
+                        <button class="btn-price">Buy now</button>
+                    </div>
+
+                    <div class="price-box">
+
+                        <div class="price-item">
+                            <p class="currency">$</p>
+                            <p class="price">99</p>
+                            <p class="month">/month</p>
+                        </div>
+
+                        <div class="price-info">
+                            <p class="data">entry date: mon – sun</p>
+                            <p class="time">entry time: 8a.m – 8p.m</p>
+                            <p class="advicer">nutrition advicer: yes</p>
+                        </div>
+                        <button class="btn-price">Buy now</button>
+                    </div>
+
+                </div>
+            </div>
         </div>
         
+        
 
+    
     </main>
     <footer>
         <div class="footer-main">
@@ -189,18 +351,22 @@
                             <div class="contact-box">
                                 <a href="#" class="icon-map"></a>
                                 <p>5419 Joseph Mountains Apt. 716</p>
+                                
                             </div>
                             <div class="contact-box">
-                                <a href="#" class="icon-mail-envelope-closed"></a>
-                                <p>joga.info@example.com</p>
+                                <a href="mailto:joga.info@example.com" class="icon-mail-envelope-closed"></a>
+                                <a href="mailto:joga.info@example.com" class="contact-box-item">joga.info@example.com</a>
                             </div>
                             <div class="contact-box">
                                 <a href="#" class="icon-phone-call"></a>
-                                <p>+1 234 567 89 </br>+1 234 678 90</p>
+                                <div>
+                                    <a href="tel:+123456789" class="contact-box-item">+1 234 567 89</a> 
+                                    <a href="tel:+123467890" class="contact-box-item">+1 234 678 90</a>
+                                </div>
                             </div>
                             <div class="contact-box">
-                                <a href="#" class="icon-earth"></a>
-                                <p>www.example.com</p>
+                                <a href="www.example.com" class="icon-earth"></a>
+                                <a href="www.example.com" class="contact-box-item">www.example.com</a>
                             </div>
                         </div>
                     </div>
@@ -211,5 +377,19 @@
             <p>Copyright   ©   2016-2017 Yoga classes</p>
         </div>        
     </footer>
-</body>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script  src="slick/slick.js"></script> 
+    <script >
+        $(document).ready(function(){
+            $('.yoga-gallery').slick({
+                // effect 
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        });
+    </script>
+    </body>
 </html>
