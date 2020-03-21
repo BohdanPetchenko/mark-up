@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var table, row, cell, i, j;
+
+        table = document.createElement('table');
+
+        for (i =1; i < 10; i++) {
+
+            row = document.createElement('tr');
+
+            for (j=1; j<10; j++) {
+
+                cell = document.createElement(i == 1 || j == 1 ? 'th' : 'td');
+
+                cell.appendChild(document.createTextNode(i*j));
+
+                cell.style.padding = '2px';
+
+                cell.style.width = 100 / 9 + '%';
+
+                row.appendChild(cell);
+
+            }
+
+            table.appendChild(row);
+
+        }
+
+        document.body.appendChild(table);
+
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
