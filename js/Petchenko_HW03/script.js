@@ -256,7 +256,7 @@ function chess(){
 //-----  cubes  -----
 function cubes(){
     var lengthArrOfCubes = +prompt('Enter a lenth array');
-    arrOfCubes = [];.
+    arrOfCubes = [];
     for (var i = 0; i < lengthArrOfCubes; i++){
 
         arrOfCubes.push(Math.pow(i, 3));
