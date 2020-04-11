@@ -289,7 +289,7 @@ function multiply_table(){
 
     alert("Result: " + arr[x][y]);
 }
-// multiply_table()                                                 // function call
+multiply_table()                                                 // function call
 
 
 //------ Blue Belt Quest: Triangle ------
