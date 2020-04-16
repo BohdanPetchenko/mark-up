@@ -95,7 +95,7 @@ var myBind = function(fn, context, someArr) {
             }
             return someArr
         };
-        // arrFiltered.unshift(...params)
+        
         console.log(fn.apply(context,[...filt]))
         return fn.apply(context,[...filt])
     }
