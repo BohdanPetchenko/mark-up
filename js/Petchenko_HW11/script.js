@@ -8,7 +8,7 @@ let chat = document.getElementById("chat");
 
 /********** First Part HW **********/
 
-//function jsonPost(url, data) {
+// function jsonPost(url, data) {
 //    return new Promise((resolve, reject) => {
 //        var x = new XMLHttpRequest();
 //        x.onerror = () => reject(new Error('jsonPost failed'))
@@ -25,7 +25,7 @@ let chat = document.getElementById("chat");
 //            }
 //        }
 //    })
-//}
+// }
 
 
 // getMsg()
@@ -93,9 +93,8 @@ async function sendAndCheck() {
 
 
 async function checkLoop() {
-    let start = false;
     const delay = ms => new Promise(ok => setTimeout(() => ok(ms), ms));
-    while (!start) {
+    while (true) {
         await delay(2500);
         getMessages();
     }
