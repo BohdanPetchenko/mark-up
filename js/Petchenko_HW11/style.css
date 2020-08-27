@@ -1,9 +1,0 @@
-* {
-    box-sizing: border-box;   
-}
-
-input, button{
-    margin-bottom: 15px;
-    width: 50%;
-    font-size: 2em;
-}
